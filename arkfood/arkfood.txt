@@ -1,0 +1,38 @@
+1. Mulai
+2. Masukkan parameter harga bertipe number
+3. Masukkan parameter voucher bertipe string
+4. Masukkan parameter jarak bertipe number
+5. Masukkan parameter pajak bertipe boolean
+6. Apakah harga lebih besar sama dengan dari 50000 dan Memakai kupon "ARKAFOOD5" ?
+7. Jika TRUE, Apakah harga lebih besar dari 100000?
+7a. Jika TRUE, maka voucher bernilai 50000
+7b. Jika FALSE, maka voucher bernilai harga * 0,5
+8. Jika FALSE, Apakah harga lebih besar sama dengan dari 25000 dan Memakai kupon "DITRAKTIRDEMY"?
+8a. Jika TRUE, Apakah harga lebih besar dari 100000?
+8aa. Jika TRUE, maka voucher bernilai 30000
+8ab. Jika FALSE, maka voucher bernilai harga * 0.3
+8b. Jika FALSE, maka voucher bernilai 0
+9. Mendeklarasikan hargaOngkir bernilai 5000
+10. Mendeklarasikan ongkirTambahan bernilai 3000
+11. Mendeklarasikan hasil bernilai 0
+12. Mendeklarasikan total bernilai 0
+13. Mendeklarasikan i bernilai 3
+14. Apakah jarak kurang dari sama dengan 2 kilometer?
+15a. Jika TRUE, maka return jarak = hargaOngkir
+15b. Jika FALSE, Apakah nilai i kurang dari sama dengan jarak?
+15ba. Jika TRUE, maka return jarak = hargaOngkir + total
+15bb. Jika FALSE, maka hasil = (ongkirTambahan + i) - i
+15bc. lakukan operasi total += hasil lalu kembali ke tahap 7b
+16. Mendeklarasikan totalPajak2 = 0
+17. Apakah input parameter dari pajak === true?
+17a. Jika TRUE, maka totalPajak2 = harga * 0.05
+17b. Jika FALSE, maka totalPajak2 = 0
+18. Mendeklarasikan let totalOngkir = ongkir(jarak)
+19. Mendeklarasikan let totalPajak1 = totalPajak(harga, pajak)
+20. Mendeklarasikan subtotal dengan melakukan operasi matematika harga + totalOngkir + totalPajak1 - voucher
+21. Cetak Harga : harga
+22. Cetak Potongan : voucher
+23. Cetak Biaya antar : totalOngkir
+24. Cetak Pajak : totalPajak1
+25. Cetak Subtotal : subtotal
+26. Selesai
