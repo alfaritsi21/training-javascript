@@ -11,7 +11,7 @@ const arkFood = (harga, voucher, jarak, pajak) => {
             voucher = harga * 0.5
         }
     } else if (harga >= 25000 && voucher == 'DITRAKTIRDEMY'){
-        if (harga == 100000) {
+        if (harga > 100000) {
             voucher = 30000
         } else {
             voucher = harga * 0.3
